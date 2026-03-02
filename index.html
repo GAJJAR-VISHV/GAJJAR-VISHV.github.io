@@ -85,7 +85,6 @@
     opacity: 0;
     transform: translateY(8px);
   }
-  /* scrolled state */
   .nav-logo.scrolled .nav-logo-full {
     opacity: 0;
     transform: translateY(-8px);
@@ -143,7 +142,6 @@
     color: var(--text-primary);
     animation: fadeUp 0.6s 0.1s ease both;
     margin-bottom: 12px;
-    white-space: nowrap;
     white-space: nowrap;
   }
   .hero-name span {
@@ -386,7 +384,8 @@
     .bento-card.col-4, .bento-card.col-5, .bento-card.col-7, .bento-card.col-6, .bento-card.col-8 { grid-column: span 12; }
     .contact-grid { grid-template-columns: 1fr; }
     .exp-header { flex-direction: column; gap: 8px; }
-  }  /* scrollbar */
+  }
+  /* scrollbar */
   ::-webkit-scrollbar { width: 6px; }
   ::-webkit-scrollbar-track { background: transparent; }
   ::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.12); border-radius: 3px; }
@@ -427,7 +426,7 @@
         Building hyperscaler partnerships that actually drive revenue. I turn AWS relationships into co-sell pipelines, Marketplace listings, and funded POCs — accelerating partner tiers faster than anyone expects.
       </p>
       <div class="hero-actions">
-        <a href="/cdn-cgi/l/email-protection#82f4ebf1eaf4e0e5e3e8e8e3f0c2e5efe3ebeeace1edef" class="btn btn-primary">
+        <a href="mailto:vishvbgajjar@gmail.com" class="btn btn-primary">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
           Get in touch
         </a>
@@ -675,13 +674,13 @@
       <h2 class="section-title reveal">Get in Touch</h2>
 
       <div class="contact-grid reveal">
-        <a href="/cdn-cgi/l/email-protection#8ef8e7fde6f8ece9efe4e4effccee9e3efe7e2a0ede1e3" class="card contact-card">
+        <a href="mailto:vishvbgajjar@gmail.com" class="card contact-card">
           <div class="contact-icon-wrap" style="background: rgba(255,59,48,0.08);">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ff3b30" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
           </div>
           <div>
             <div class="contact-label">Email</div>
-            <div class="contact-value">vishvbgajjar@gmail.com</span></div>
+            <div class="contact-value">vishvbgajjar@gmail.com</div>
           </div>
         </a>
         <a href="tel:+919157942755" class="card contact-card">
@@ -737,7 +736,6 @@
   reveals.forEach(el => observer.observe(el));
 
   // ── NAV LOGO SCROLL SWAP ──
-  // At top: shows "Vishv Gajjar" | on scroll: morphs to "VG"
   const navLogo = document.getElementById('nav-logo');
   const heroSection = document.getElementById('about');
 
